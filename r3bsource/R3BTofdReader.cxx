@@ -12,7 +12,6 @@ extern "C" {
 }
 
 #define MAX_TOFD_PLANES   3
-#define MAX_TOFD_PADDLES 10 // paddles per plane
 
 R3BTofdReader::R3BTofdReader(EXT_STR_h101* data)
 	: R3BReader("R3BTofdReader")
